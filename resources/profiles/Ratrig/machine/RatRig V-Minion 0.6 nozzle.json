@@ -1,0 +1,91 @@
+{
+	"type": "machine",
+	"name": "RatRig V-Minion 0.6 nozzle",
+	"inherits": "fdm_klipper_common",
+	"from": "system",
+	"setting_id": "GM005",
+	"instantiation": "true",
+	"printer_model": "RatRig V-Minion",
+	"nozzle_diameter": [
+		"0.6"
+	],
+	"printable_area": [
+		"0x0",
+		"180x0",
+		"180x180",
+		"0x180"
+	],
+	"printable_height": "180",
+	"machine_max_speed_x": [
+		"250",
+		"250"
+	],
+	"machine_max_speed_y": [
+		"250",
+		"250"
+	],
+	"machine_max_speed_z": [
+		"10",
+		"10"
+	],
+	"machine_max_speed_e": [
+		"60",
+		"60"
+	],
+	"machine_max_acceleration_x": [
+		"4000",
+		"4000"
+	],
+	"machine_max_acceleration_y": [
+		"4000",
+		"4000"
+	],
+	"machine_max_acceleration_z": [
+		"25",
+		"25"
+	],
+	"machine_max_acceleration_e": [
+		"5000",
+		"5000"
+	],
+	"machine_max_acceleration_extruding": [
+		"7000",
+		"7000"
+	],
+	"machine_max_acceleration_retracting": [
+		"7000",
+		"7000"
+	],
+	"machine_max_acceleration_travel": [
+		"4000",
+		"1250"
+	],
+	"machine_max_jerk_x": [
+		"5",
+		"5"
+	],
+	"machine_max_jerk_y": [
+		"5",
+		"5"
+	],
+	"machine_max_jerk_z": [
+		"0.4",
+		"0.4"
+	],
+	"machine_max_jerk_e": [
+		"5",
+		"5"
+	],
+	"retraction_length": [
+		"0.8"
+	],
+	"retraction_speed": [
+		"100"
+	],
+	"deretraction_speed": [
+		"100"
+	],
+	"retract_before_wipe": [
+		"0%"
+	]
+}

@@ -25,8 +25,8 @@
 		"400"
 	],
 	"machine_max_speed_z": [
-		"200",
-		"200"
+		"50",
+		"50"
 	],
 	"machine_max_speed_e": [
 		"120",
@@ -57,8 +57,8 @@
 		"10000"
 	],
 	"machine_max_acceleration_travel": [
-		"10000",
-		"10000"
+		"9000",
+		"1250"
 	],
 	"machine_max_jerk_x": [
 		"5",
@@ -89,7 +89,7 @@
 		"0.4"
 	],
 	"retraction_length": [
-		"3"
+		"0.8"
 	],
 	"retraction_speed": [
 		"120"
@@ -101,7 +101,7 @@
 		"1"
 	],
 	"retract_before_wipe": [
-		"70%"
+		"0%"
 	],
 	"z_hop": [
 		"0.2"
