@@ -1,0 +1,15 @@
+{
+	"type": "process",
+	"name": "0.30mm Big @RatRig V-Core 4 HYBRID 500 0.8",
+	"inherits": "0.30mm Big @RatRig V-Core 4 HYBRID 0.8",
+	"from": "system",
+	"setting_id": "GP006",
+	"instantiation": "true",
+	"outer_wall_acceleration": "4000",
+	"inner_wall_acceleration": "4000",
+	"sparse_infill_acceleration": "6000",
+	"default_acceleration": "4000",
+	"compatible_printers": [
+		"RatRig V-Core 4 HYBRID 500 0.8 nozzle"
+	]
+}

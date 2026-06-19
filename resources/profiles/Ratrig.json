@@ -1,6 +1,6 @@
 {
 	"name": "RatRig",
-	"version": "02.04.00.06",
+	"version": "02.04.00.07",
 	"force_update": "0",
 	"description": "RatRig configurations",
 	"machine_model_list": [
@@ -321,6 +321,402 @@
 		{
 			"name": "0.30mm Big @RatRig V-Minion 0.6",
 			"sub_path": "process/0.30mm Big @RatRig V-Minion 0.6.json"
+		},
+		{
+			"name": "0.20mm Quality @RatRig V-Core 4 300 0.4",
+			"sub_path": "process/0.20mm Quality @RatRig V-Core 4 300 0.4.json"
+		},
+		{
+			"name": "0.20mm Quality @RatRig V-Core 4 300 0.5",
+			"sub_path": "process/0.20mm Quality @RatRig V-Core 4 300 0.5.json"
+		},
+		{
+			"name": "0.20mm Quality @RatRig V-Core 4 400 0.4",
+			"sub_path": "process/0.20mm Quality @RatRig V-Core 4 400 0.4.json"
+		},
+		{
+			"name": "0.20mm Quality @RatRig V-Core 4 400 0.5",
+			"sub_path": "process/0.20mm Quality @RatRig V-Core 4 400 0.5.json"
+		},
+		{
+			"name": "0.20mm Quality @RatRig V-Core 4 500 0.4",
+			"sub_path": "process/0.20mm Quality @RatRig V-Core 4 500 0.4.json"
+		},
+		{
+			"name": "0.20mm Quality @RatRig V-Core 4 500 0.5",
+			"sub_path": "process/0.20mm Quality @RatRig V-Core 4 500 0.5.json"
+		},
+		{
+			"name": "0.20mm Quality @RatRig V-Core 4 HYBRID 300 0.4",
+			"sub_path": "process/0.20mm Quality @RatRig V-Core 4 HYBRID 300 0.4.json"
+		},
+		{
+			"name": "0.20mm Quality @RatRig V-Core 4 HYBRID 300 0.5",
+			"sub_path": "process/0.20mm Quality @RatRig V-Core 4 HYBRID 300 0.5.json"
+		},
+		{
+			"name": "0.20mm Quality @RatRig V-Core 4 HYBRID 300 0.6",
+			"sub_path": "process/0.20mm Quality @RatRig V-Core 4 HYBRID 300 0.6.json"
+		},
+		{
+			"name": "0.20mm Quality @RatRig V-Core 4 HYBRID 400 0.4",
+			"sub_path": "process/0.20mm Quality @RatRig V-Core 4 HYBRID 400 0.4.json"
+		},
+		{
+			"name": "0.20mm Quality @RatRig V-Core 4 HYBRID 400 0.5",
+			"sub_path": "process/0.20mm Quality @RatRig V-Core 4 HYBRID 400 0.5.json"
+		},
+		{
+			"name": "0.20mm Quality @RatRig V-Core 4 HYBRID 400 0.6",
+			"sub_path": "process/0.20mm Quality @RatRig V-Core 4 HYBRID 400 0.6.json"
+		},
+		{
+			"name": "0.20mm Quality @RatRig V-Core 4 HYBRID 500 0.4",
+			"sub_path": "process/0.20mm Quality @RatRig V-Core 4 HYBRID 500 0.4.json"
+		},
+		{
+			"name": "0.20mm Quality @RatRig V-Core 4 HYBRID 500 0.5",
+			"sub_path": "process/0.20mm Quality @RatRig V-Core 4 HYBRID 500 0.5.json"
+		},
+		{
+			"name": "0.20mm Quality @RatRig V-Core 4 HYBRID 500 0.6",
+			"sub_path": "process/0.20mm Quality @RatRig V-Core 4 HYBRID 500 0.6.json"
+		},
+		{
+			"name": "0.20mm Quality @RatRig V-Core 4 IDEX 300 0.4",
+			"sub_path": "process/0.20mm Quality @RatRig V-Core 4 IDEX 300 0.4.json"
+		},
+		{
+			"name": "0.20mm Quality @RatRig V-Core 4 IDEX 300 0.5",
+			"sub_path": "process/0.20mm Quality @RatRig V-Core 4 IDEX 300 0.5.json"
+		},
+		{
+			"name": "0.20mm Quality @RatRig V-Core 4 IDEX 300 0.6",
+			"sub_path": "process/0.20mm Quality @RatRig V-Core 4 IDEX 300 0.6.json"
+		},
+		{
+			"name": "0.20mm Quality @RatRig V-Core 4 IDEX 400 0.4",
+			"sub_path": "process/0.20mm Quality @RatRig V-Core 4 IDEX 400 0.4.json"
+		},
+		{
+			"name": "0.20mm Quality @RatRig V-Core 4 IDEX 400 0.5",
+			"sub_path": "process/0.20mm Quality @RatRig V-Core 4 IDEX 400 0.5.json"
+		},
+		{
+			"name": "0.20mm Quality @RatRig V-Core 4 IDEX 400 0.6",
+			"sub_path": "process/0.20mm Quality @RatRig V-Core 4 IDEX 400 0.6.json"
+		},
+		{
+			"name": "0.20mm Quality @RatRig V-Core 4 IDEX 500 0.4",
+			"sub_path": "process/0.20mm Quality @RatRig V-Core 4 IDEX 500 0.4.json"
+		},
+		{
+			"name": "0.20mm Quality @RatRig V-Core 4 IDEX 500 0.5",
+			"sub_path": "process/0.20mm Quality @RatRig V-Core 4 IDEX 500 0.5.json"
+		},
+		{
+			"name": "0.20mm Quality @RatRig V-Core 4 IDEX 500 0.6",
+			"sub_path": "process/0.20mm Quality @RatRig V-Core 4 IDEX 500 0.6.json"
+		},
+		{
+			"name": "0.25mm Quality Speed @RatRig V-Core 4 300 0.4",
+			"sub_path": "process/0.25mm Quality Speed @RatRig V-Core 4 300 0.4.json"
+		},
+		{
+			"name": "0.25mm Quality Speed @RatRig V-Core 4 300 0.5",
+			"sub_path": "process/0.25mm Quality Speed @RatRig V-Core 4 300 0.5.json"
+		},
+		{
+			"name": "0.25mm Quality Speed @RatRig V-Core 4 300 0.6",
+			"sub_path": "process/0.25mm Quality Speed @RatRig V-Core 4 300 0.6.json"
+		},
+		{
+			"name": "0.25mm Quality Speed @RatRig V-Core 4 400 0.4",
+			"sub_path": "process/0.25mm Quality Speed @RatRig V-Core 4 400 0.4.json"
+		},
+		{
+			"name": "0.25mm Quality Speed @RatRig V-Core 4 400 0.5",
+			"sub_path": "process/0.25mm Quality Speed @RatRig V-Core 4 400 0.5.json"
+		},
+		{
+			"name": "0.25mm Quality Speed @RatRig V-Core 4 400 0.6",
+			"sub_path": "process/0.25mm Quality Speed @RatRig V-Core 4 400 0.6.json"
+		},
+		{
+			"name": "0.25mm Quality Speed @RatRig V-Core 4 500 0.4",
+			"sub_path": "process/0.25mm Quality Speed @RatRig V-Core 4 500 0.4.json"
+		},
+		{
+			"name": "0.25mm Quality Speed @RatRig V-Core 4 500 0.5",
+			"sub_path": "process/0.25mm Quality Speed @RatRig V-Core 4 500 0.5.json"
+		},
+		{
+			"name": "0.25mm Quality Speed @RatRig V-Core 4 500 0.6",
+			"sub_path": "process/0.25mm Quality Speed @RatRig V-Core 4 500 0.6.json"
+		},
+		{
+			"name": "0.25mm Quality Speed @RatRig V-Core 4 HYBRID 300 0.4",
+			"sub_path": "process/0.25mm Quality Speed @RatRig V-Core 4 HYBRID 300 0.4.json"
+		},
+		{
+			"name": "0.25mm Quality Speed @RatRig V-Core 4 HYBRID 300 0.5",
+			"sub_path": "process/0.25mm Quality Speed @RatRig V-Core 4 HYBRID 300 0.5.json"
+		},
+		{
+			"name": "0.25mm Quality Speed @RatRig V-Core 4 HYBRID 300 0.6",
+			"sub_path": "process/0.25mm Quality Speed @RatRig V-Core 4 HYBRID 300 0.6.json"
+		},
+		{
+			"name": "0.25mm Quality Speed @RatRig V-Core 4 HYBRID 400 0.4",
+			"sub_path": "process/0.25mm Quality Speed @RatRig V-Core 4 HYBRID 400 0.4.json"
+		},
+		{
+			"name": "0.25mm Quality Speed @RatRig V-Core 4 HYBRID 400 0.5",
+			"sub_path": "process/0.25mm Quality Speed @RatRig V-Core 4 HYBRID 400 0.5.json"
+		},
+		{
+			"name": "0.25mm Quality Speed @RatRig V-Core 4 HYBRID 400 0.6",
+			"sub_path": "process/0.25mm Quality Speed @RatRig V-Core 4 HYBRID 400 0.6.json"
+		},
+		{
+			"name": "0.25mm Quality Speed @RatRig V-Core 4 HYBRID 500 0.4",
+			"sub_path": "process/0.25mm Quality Speed @RatRig V-Core 4 HYBRID 500 0.4.json"
+		},
+		{
+			"name": "0.25mm Quality Speed @RatRig V-Core 4 HYBRID 500 0.5",
+			"sub_path": "process/0.25mm Quality Speed @RatRig V-Core 4 HYBRID 500 0.5.json"
+		},
+		{
+			"name": "0.25mm Quality Speed @RatRig V-Core 4 HYBRID 500 0.6",
+			"sub_path": "process/0.25mm Quality Speed @RatRig V-Core 4 HYBRID 500 0.6.json"
+		},
+		{
+			"name": "0.25mm Quality Speed @RatRig V-Core 4 IDEX 300 0.4",
+			"sub_path": "process/0.25mm Quality Speed @RatRig V-Core 4 IDEX 300 0.4.json"
+		},
+		{
+			"name": "0.25mm Quality Speed @RatRig V-Core 4 IDEX 300 0.5",
+			"sub_path": "process/0.25mm Quality Speed @RatRig V-Core 4 IDEX 300 0.5.json"
+		},
+		{
+			"name": "0.25mm Quality Speed @RatRig V-Core 4 IDEX 300 0.6",
+			"sub_path": "process/0.25mm Quality Speed @RatRig V-Core 4 IDEX 300 0.6.json"
+		},
+		{
+			"name": "0.25mm Quality Speed @RatRig V-Core 4 IDEX 400 0.4",
+			"sub_path": "process/0.25mm Quality Speed @RatRig V-Core 4 IDEX 400 0.4.json"
+		},
+		{
+			"name": "0.25mm Quality Speed @RatRig V-Core 4 IDEX 400 0.5",
+			"sub_path": "process/0.25mm Quality Speed @RatRig V-Core 4 IDEX 400 0.5.json"
+		},
+		{
+			"name": "0.25mm Quality Speed @RatRig V-Core 4 IDEX 400 0.6",
+			"sub_path": "process/0.25mm Quality Speed @RatRig V-Core 4 IDEX 400 0.6.json"
+		},
+		{
+			"name": "0.25mm Quality Speed @RatRig V-Core 4 IDEX 500 0.4",
+			"sub_path": "process/0.25mm Quality Speed @RatRig V-Core 4 IDEX 500 0.4.json"
+		},
+		{
+			"name": "0.25mm Quality Speed @RatRig V-Core 4 IDEX 500 0.5",
+			"sub_path": "process/0.25mm Quality Speed @RatRig V-Core 4 IDEX 500 0.5.json"
+		},
+		{
+			"name": "0.25mm Quality Speed @RatRig V-Core 4 IDEX 500 0.6",
+			"sub_path": "process/0.25mm Quality Speed @RatRig V-Core 4 IDEX 500 0.6.json"
+		},
+		{
+			"name": "0.25mm Speed @RatRig V-Core 4 300 0.4",
+			"sub_path": "process/0.25mm Speed @RatRig V-Core 4 300 0.4.json"
+		},
+		{
+			"name": "0.25mm Speed @RatRig V-Core 4 300 0.5",
+			"sub_path": "process/0.25mm Speed @RatRig V-Core 4 300 0.5.json"
+		},
+		{
+			"name": "0.25mm Speed @RatRig V-Core 4 300 0.6",
+			"sub_path": "process/0.25mm Speed @RatRig V-Core 4 300 0.6.json"
+		},
+		{
+			"name": "0.25mm Speed @RatRig V-Core 4 400 0.4",
+			"sub_path": "process/0.25mm Speed @RatRig V-Core 4 400 0.4.json"
+		},
+		{
+			"name": "0.25mm Speed @RatRig V-Core 4 400 0.5",
+			"sub_path": "process/0.25mm Speed @RatRig V-Core 4 400 0.5.json"
+		},
+		{
+			"name": "0.25mm Speed @RatRig V-Core 4 400 0.6",
+			"sub_path": "process/0.25mm Speed @RatRig V-Core 4 400 0.6.json"
+		},
+		{
+			"name": "0.25mm Speed @RatRig V-Core 4 500 0.4",
+			"sub_path": "process/0.25mm Speed @RatRig V-Core 4 500 0.4.json"
+		},
+		{
+			"name": "0.25mm Speed @RatRig V-Core 4 500 0.5",
+			"sub_path": "process/0.25mm Speed @RatRig V-Core 4 500 0.5.json"
+		},
+		{
+			"name": "0.25mm Speed @RatRig V-Core 4 500 0.6",
+			"sub_path": "process/0.25mm Speed @RatRig V-Core 4 500 0.6.json"
+		},
+		{
+			"name": "0.25mm Speed @RatRig V-Core 4 HYBRID 300 0.4",
+			"sub_path": "process/0.25mm Speed @RatRig V-Core 4 HYBRID 300 0.4.json"
+		},
+		{
+			"name": "0.25mm Speed @RatRig V-Core 4 HYBRID 300 0.5",
+			"sub_path": "process/0.25mm Speed @RatRig V-Core 4 HYBRID 300 0.5.json"
+		},
+		{
+			"name": "0.25mm Speed @RatRig V-Core 4 HYBRID 300 0.6",
+			"sub_path": "process/0.25mm Speed @RatRig V-Core 4 HYBRID 300 0.6.json"
+		},
+		{
+			"name": "0.25mm Speed @RatRig V-Core 4 HYBRID 300 0.8",
+			"sub_path": "process/0.25mm Speed @RatRig V-Core 4 HYBRID 300 0.8.json"
+		},
+		{
+			"name": "0.25mm Speed @RatRig V-Core 4 HYBRID 400 0.4",
+			"sub_path": "process/0.25mm Speed @RatRig V-Core 4 HYBRID 400 0.4.json"
+		},
+		{
+			"name": "0.25mm Speed @RatRig V-Core 4 HYBRID 400 0.5",
+			"sub_path": "process/0.25mm Speed @RatRig V-Core 4 HYBRID 400 0.5.json"
+		},
+		{
+			"name": "0.25mm Speed @RatRig V-Core 4 HYBRID 400 0.6",
+			"sub_path": "process/0.25mm Speed @RatRig V-Core 4 HYBRID 400 0.6.json"
+		},
+		{
+			"name": "0.25mm Speed @RatRig V-Core 4 HYBRID 400 0.8",
+			"sub_path": "process/0.25mm Speed @RatRig V-Core 4 HYBRID 400 0.8.json"
+		},
+		{
+			"name": "0.25mm Speed @RatRig V-Core 4 HYBRID 500 0.4",
+			"sub_path": "process/0.25mm Speed @RatRig V-Core 4 HYBRID 500 0.4.json"
+		},
+		{
+			"name": "0.25mm Speed @RatRig V-Core 4 HYBRID 500 0.5",
+			"sub_path": "process/0.25mm Speed @RatRig V-Core 4 HYBRID 500 0.5.json"
+		},
+		{
+			"name": "0.25mm Speed @RatRig V-Core 4 HYBRID 500 0.6",
+			"sub_path": "process/0.25mm Speed @RatRig V-Core 4 HYBRID 500 0.6.json"
+		},
+		{
+			"name": "0.25mm Speed @RatRig V-Core 4 HYBRID 500 0.8",
+			"sub_path": "process/0.25mm Speed @RatRig V-Core 4 HYBRID 500 0.8.json"
+		},
+		{
+			"name": "0.25mm Speed @RatRig V-Core 4 IDEX 300 0.4",
+			"sub_path": "process/0.25mm Speed @RatRig V-Core 4 IDEX 300 0.4.json"
+		},
+		{
+			"name": "0.25mm Speed @RatRig V-Core 4 IDEX 300 0.5",
+			"sub_path": "process/0.25mm Speed @RatRig V-Core 4 IDEX 300 0.5.json"
+		},
+		{
+			"name": "0.25mm Speed @RatRig V-Core 4 IDEX 300 0.6",
+			"sub_path": "process/0.25mm Speed @RatRig V-Core 4 IDEX 300 0.6.json"
+		},
+		{
+			"name": "0.25mm Speed @RatRig V-Core 4 IDEX 300 0.8",
+			"sub_path": "process/0.25mm Speed @RatRig V-Core 4 IDEX 300 0.8.json"
+		},
+		{
+			"name": "0.25mm Speed @RatRig V-Core 4 IDEX 400 0.4",
+			"sub_path": "process/0.25mm Speed @RatRig V-Core 4 IDEX 400 0.4.json"
+		},
+		{
+			"name": "0.25mm Speed @RatRig V-Core 4 IDEX 400 0.5",
+			"sub_path": "process/0.25mm Speed @RatRig V-Core 4 IDEX 400 0.5.json"
+		},
+		{
+			"name": "0.25mm Speed @RatRig V-Core 4 IDEX 400 0.6",
+			"sub_path": "process/0.25mm Speed @RatRig V-Core 4 IDEX 400 0.6.json"
+		},
+		{
+			"name": "0.25mm Speed @RatRig V-Core 4 IDEX 400 0.8",
+			"sub_path": "process/0.25mm Speed @RatRig V-Core 4 IDEX 400 0.8.json"
+		},
+		{
+			"name": "0.25mm Speed @RatRig V-Core 4 IDEX 500 0.4",
+			"sub_path": "process/0.25mm Speed @RatRig V-Core 4 IDEX 500 0.4.json"
+		},
+		{
+			"name": "0.25mm Speed @RatRig V-Core 4 IDEX 500 0.5",
+			"sub_path": "process/0.25mm Speed @RatRig V-Core 4 IDEX 500 0.5.json"
+		},
+		{
+			"name": "0.25mm Speed @RatRig V-Core 4 IDEX 500 0.6",
+			"sub_path": "process/0.25mm Speed @RatRig V-Core 4 IDEX 500 0.6.json"
+		},
+		{
+			"name": "0.25mm Speed @RatRig V-Core 4 IDEX 500 0.8",
+			"sub_path": "process/0.25mm Speed @RatRig V-Core 4 IDEX 500 0.8.json"
+		},
+		{
+			"name": "0.30mm Big @RatRig V-Core 4 300 0.6",
+			"sub_path": "process/0.30mm Big @RatRig V-Core 4 300 0.6.json"
+		},
+		{
+			"name": "0.30mm Big @RatRig V-Core 4 400 0.6",
+			"sub_path": "process/0.30mm Big @RatRig V-Core 4 400 0.6.json"
+		},
+		{
+			"name": "0.30mm Big @RatRig V-Core 4 500 0.6",
+			"sub_path": "process/0.30mm Big @RatRig V-Core 4 500 0.6.json"
+		},
+		{
+			"name": "0.30mm Big @RatRig V-Core 4 HYBRID 300 0.6",
+			"sub_path": "process/0.30mm Big @RatRig V-Core 4 HYBRID 300 0.6.json"
+		},
+		{
+			"name": "0.30mm Big @RatRig V-Core 4 HYBRID 300 0.8",
+			"sub_path": "process/0.30mm Big @RatRig V-Core 4 HYBRID 300 0.8.json"
+		},
+		{
+			"name": "0.30mm Big @RatRig V-Core 4 HYBRID 400 0.6",
+			"sub_path": "process/0.30mm Big @RatRig V-Core 4 HYBRID 400 0.6.json"
+		},
+		{
+			"name": "0.30mm Big @RatRig V-Core 4 HYBRID 400 0.8",
+			"sub_path": "process/0.30mm Big @RatRig V-Core 4 HYBRID 400 0.8.json"
+		},
+		{
+			"name": "0.30mm Big @RatRig V-Core 4 HYBRID 500 0.6",
+			"sub_path": "process/0.30mm Big @RatRig V-Core 4 HYBRID 500 0.6.json"
+		},
+		{
+			"name": "0.30mm Big @RatRig V-Core 4 HYBRID 500 0.8",
+			"sub_path": "process/0.30mm Big @RatRig V-Core 4 HYBRID 500 0.8.json"
+		},
+		{
+			"name": "0.30mm Big @RatRig V-Core 4 IDEX 300 0.6",
+			"sub_path": "process/0.30mm Big @RatRig V-Core 4 IDEX 300 0.6.json"
+		},
+		{
+			"name": "0.30mm Big @RatRig V-Core 4 IDEX 300 0.8",
+			"sub_path": "process/0.30mm Big @RatRig V-Core 4 IDEX 300 0.8.json"
+		},
+		{
+			"name": "0.30mm Big @RatRig V-Core 4 IDEX 400 0.6",
+			"sub_path": "process/0.30mm Big @RatRig V-Core 4 IDEX 400 0.6.json"
+		},
+		{
+			"name": "0.30mm Big @RatRig V-Core 4 IDEX 400 0.8",
+			"sub_path": "process/0.30mm Big @RatRig V-Core 4 IDEX 400 0.8.json"
+		},
+		{
+			"name": "0.30mm Big @RatRig V-Core 4 IDEX 500 0.6",
+			"sub_path": "process/0.30mm Big @RatRig V-Core 4 IDEX 500 0.6.json"
+		},
+		{
+			"name": "0.30mm Big @RatRig V-Core 4 IDEX 500 0.8",
+			"sub_path": "process/0.30mm Big @RatRig V-Core 4 IDEX 500 0.8.json"
 		}
 	],
 	"filament_list": [

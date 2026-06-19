@@ -1,0 +1,17 @@
+{
+	"type": "process",
+	"name": "0.30mm Big @RatRig V-Core 4 IDEX 300 0.8",
+	"inherits": "0.30mm Big @RatRig V-Core 4 IDEX 0.8",
+	"from": "system",
+	"setting_id": "GP006",
+	"instantiation": "true",
+	"outer_wall_acceleration": "6000",
+	"inner_wall_acceleration": "6000",
+	"sparse_infill_acceleration": "5000",
+	"default_acceleration": "5000",
+	"compatible_printers": [
+		"RatRig V-Core 4 IDEX 300 0.8 nozzle",
+		"RatRig V-Core 4 IDEX 300 COPY MODE 0.8 nozzle",
+		"RatRig V-Core 4 IDEX 300 MIRROR MODE 0.8 nozzle"
+	]
+}
