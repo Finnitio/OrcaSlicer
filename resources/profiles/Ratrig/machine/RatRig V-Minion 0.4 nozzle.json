@@ -87,5 +87,11 @@
 	],
 	"retract_before_wipe": [
 		"0%"
+	],
+	"min_layer_height": [
+		"0.06"
+	],
+	"max_layer_height": [
+		"0.3"
 	]
 }
