@@ -46,7 +46,7 @@
 	"outer_wall_line_width": "0.45",
 	"sparse_infill_line_width": "0.45",
 	"internal_solid_infill_line_width": "0.45",
-	"top_surface_line_width": "0.45",
+	"top_surface_line_width": "0.42",
 	"support_line_width": "0.45",
 	"infill_wall_overlap": "18%",
 	"bridge_flow": "0.85",
