@@ -11,5 +11,6 @@
 	"default_acceleration": "4000",
 	"compatible_printers": [
 		"RatRig V-Core 4 HYBRID 500 0.6 nozzle"
-	]
+	],
+	"internal_solid_infill_acceleration": "6000"
 }

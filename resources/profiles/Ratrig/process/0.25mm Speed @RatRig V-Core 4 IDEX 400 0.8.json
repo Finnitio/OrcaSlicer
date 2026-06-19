@@ -13,5 +13,6 @@
 		"RatRig V-Core 4 IDEX 400 0.8 nozzle",
 		"RatRig V-Core 4 IDEX 400 COPY MODE 0.8 nozzle",
 		"RatRig V-Core 4 IDEX 400 MIRROR MODE 0.8 nozzle"
-	]
+	],
+	"internal_solid_infill_acceleration": "6000"
 }
