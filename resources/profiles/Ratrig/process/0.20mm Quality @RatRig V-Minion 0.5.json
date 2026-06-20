@@ -79,5 +79,7 @@
 	"overhang_1_4_speed": "15",
 	"overhang_2_4_speed": "25",
 	"overhang_3_4_speed": "50",
-	"overhang_4_4_speed": "80"
+	"overhang_4_4_speed": "80",
+	"support_base_pattern_spacing": "2",
+	"initial_layer_infill_speed": "40"
 }

@@ -79,5 +79,7 @@
 	"top_surface_pattern": "monotonic",
 	"bottom_surface_pattern": "monotonic",
 	"seam_position": "aligned",
-	"support_base_pattern": "rectilinear"
+	"support_base_pattern": "rectilinear",
+	"support_base_pattern_spacing": "2",
+	"initial_layer_infill_speed": "40"
 }
