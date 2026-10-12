@@ -1,0 +1,59 @@
+{
+  "allow": [
+    "cmake --build *",
+    "ctest *",
+    "./build/tests/*",
+    "build/tests/*",
+    "./build/src/Release/orca-slicer *",
+    ".scratch/*",
+    "./.scratch/*",
+    "./scripts/run_clang_tidy.ps1 *",
+    "scripts/run_clang_tidy.ps1 *"
+  ],
+  "steer": {
+    "Bash": [
+      [
+        "\\bsed\\s+(-\\S+\\s+)*-i",
+        "edit files with Edit/Write, not sed -i"
+      ],
+      [
+        "\\bpython\\S*\\s+(-\\S+\\s+)*-\\s*(<<|$)",
+        "no python - <<EOF scripts; edit with Edit/Write, run scratch scripts as .scratch/..."
+      ],
+      [
+        "(?<![0-9&<])>>?(?!&)\\s*(?!/dev/null\\b)[^\\s&|;]",
+        "no shell redirects into files; use Edit/Write (only /dev/null and 2>&1 are fine)"
+      ],
+      [
+        "\\btee\\b",
+        "no tee into files; use Edit/Write"
+      ],
+      [
+        "(^|[;&|(]\\s*)[A-Za-z_]\\w*=",
+        "no shell variables or env prefixes; write paths out in full"
+      ],
+      [
+        "(^|[;&|(]\\s*)cd\\s+(?!{repo_posix}/?(\\s|$|[;&|]))",
+        "stay in the repo root, no cd into subfolders"
+      ],
+      [
+        "\\brm\\s+-\\w*[rR]",
+        "write outputs to a fresh folder instead of rm -r"
+      ]
+    ],
+    "PowerShell": [
+      [
+        "\\b(Set-Content|Add-Content|Out-File)\\b",
+        "edit files with Edit/Write, not Set-Content/Add-Content/Out-File"
+      ],
+      [
+        "\\bSet-Location\\b(?!\\s+{repo_win}\\\\?(\\s|$|;))",
+        "stay in the repo root; prefix with $env:Path instead of Set-Location"
+      ],
+      [
+        "\\bRemove-Item\\b[^\\n]*-Recurse",
+        "write outputs to a fresh folder instead of Remove-Item -Recurse"
+      ]
+    ]
+  }
+}
