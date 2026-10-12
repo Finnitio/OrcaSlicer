@@ -8,7 +8,9 @@
     ".scratch/*",
     "./.scratch/*",
     "./scripts/run_clang_tidy.ps1 *",
-    "scripts/run_clang_tidy.ps1 *"
+    "scripts/run_clang_tidy.ps1 *",
+    "./.agent/scripts/dev-build.ps1 *",
+    ".agent/scripts/dev-build.ps1 *"
   ],
   "steer": {
     "Bash": [
@@ -47,5 +49,10 @@
         "write outputs to a fresh folder instead of Remove-Item -Recurse"
       ]
     ]
-  }
+  },
+  "ask": [
+    "build_win.bat *",
+    "./build_win.bat *",
+    "cmd /c *build_win.bat*"
+  ]
 }

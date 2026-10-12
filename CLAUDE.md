@@ -19,8 +19,9 @@ Single-context: `.agent/CONTEXT.md` + `.agent/docs/adr/` (create them there, not
 - Edit code with Edit/Write, never `python - <<EOF` scripts.
 - Stay in the repo root. No `cd` into subfolders, no shell variables for paths (`S=...; $S/x`).
 - Write new outputs to a fresh folder instead of `rm -rf`.
-- PowerShell: `& build/tests/...`, `& .\scripts\run_clang_tidy.ps1`, `ctest ...`. Prefix with `$env:Path = ...` when needed, not `Set-Location`.
-- Build with the VS cmake by full path, never Strawberry's (it breaks the generator) and no `$env:Path` filtering: `& "C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --build build --config Release --target fff_print_tests -- -m`.
+- Build and test only via the PowerShell tool with the wrapper: `& .\.agent\scripts\dev-build.ps1 -Target fff_print_tests -Test` (targets e.g. `OrcaSlicer`, `fff_print_tests`, `libslic3r_tests`, `ALL_BUILD`; optional `-Config Debug`). It uses the VS cmake (never Strawberry's), builds with `-m`, runs the matching ctest suite with `-Test`, writes the full log to `build\dev-build.log` and prints errors + tail. Don't call cmake/ctest directly, don't pipe its output, don't touch `$env:Path`.
+- Full deps/slicer builds (`build_win.bat ...`) always need my approval.
+- PowerShell: `& build/tests/...`, `& .\scripts\run_clang_tidy.ps1`.
 - PowerShell: write `Where-Object`/`ForEach-Object` in full, never the `?`/`%` aliases. Keep one simple pipeline per call.
 - Bash: run scratch scripts as `.scratch/...`. Keep compound commands to allowlisted parts (no `echo`, `date` filler).
 
