@@ -33,10 +33,6 @@
         "no shell variables or env prefixes; write paths out in full"
       ],
       [
-        "(^|[;&|(]\\s*)cd\\s+(?!{repo_posix}/?(\\s|$|[;&|]))",
-        "stay in the repo root, no cd into subfolders"
-      ],
-      [
         "\\brm\\s+-\\w*[rR]",
         "write outputs to a fresh folder instead of rm -r"
       ]
@@ -45,10 +41,6 @@
       [
         "\\b(Set-Content|Add-Content|Out-File)\\b",
         "edit files with Edit/Write, not Set-Content/Add-Content/Out-File"
-      ],
-      [
-        "\\bSet-Location\\b(?!\\s+{repo_win}\\\\?(\\s|$|;))",
-        "stay in the repo root; prefix with $env:Path instead of Set-Location"
       ],
       [
         "\\bRemove-Item\\b[^\\n]*-Recurse",
