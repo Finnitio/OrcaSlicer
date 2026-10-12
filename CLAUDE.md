@@ -1,6 +1,6 @@
 ## Agent skills
 
-Local-only setup for a fork contributing upstream to OrcaSlicer/OrcaSlicer. Never commit agent-skill files (`CLAUDE.local.md`, `.agent/`, `CONTEXT.md`, `docs/adr/`, `.scratch/`; `.agent/` is versioned on orphan branch `agent-config`); they're excluded via `.git/info/exclude`.
+Local-only setup for a fork contributing upstream to OrcaSlicer/OrcaSlicer. Never commit agent-skill files (`CLAUDE.local.md`, `.agent/`, `.scratch/`; `.agent/` is versioned on orphan branch `agent-config`); they're excluded via `.git/info/exclude`.
 
 ### Issue tracker
 
@@ -12,7 +12,7 @@ Default five roles (`needs-triage`, `needs-info`, `ready-for-agent`, `ready-for-
 
 ### Domain docs
 
-Single-context. See `.agent/docs/agents/domain.md`.
+Single-context: `.agent/CONTEXT.md` + `.agent/docs/adr/` (create them there, not in the repo root). See `.agent/docs/agents/domain.md`.
 
 ## Shell commands (match the allowlist in `.agent/rules.json` + `~/.claude-config/rules.json`)
 
